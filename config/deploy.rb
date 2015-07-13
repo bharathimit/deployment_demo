@@ -51,7 +51,7 @@ namespace :deploy do
   desc 'Execute all DB Migrations'
   task :migrate do
     on roles(:app), :in=> :sequence, :wait=> 5 do
-      execute 'cd /apps/cdocs/current; RAILS_ENV=staging bundle exec rake db:migrate'
+      execute 'cd /apps/deployment/current; RAILS_ENV=staging bundle exec rake db:migrate'
       # execute :touch, release_path.join('tmp/restart.txt')
     end
   end
