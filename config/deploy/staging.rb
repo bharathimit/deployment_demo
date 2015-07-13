@@ -65,7 +65,7 @@ server '10.5.3.203',
     roles: %w{web app db},
     ssh_options: {
       user: 'ror', # overrides user setting above
-      keys: %w(/home/ror/.ssh/),
+      keys: %w(/home/ror/.ssh/id_rsa),
       forward_agent: false,
       auth_methods: %w(publickey password)
       # password: 'please use keys'
@@ -80,8 +80,8 @@ namespace :assets do
       #execute 'cd /apps/cdocs/current; bundle install'
       #execute 'cd /apps/cdocs/current; RAILS_ENV=staging bundle exec rake assets:precompile'
       #execute 'cp /apps/cdocs/current/public/assets/* /cdocs_assets/ -R'
-      execute '/etc/init.d/unicorn_cdocs stop'
-      execute '/etc/init.d/unicorn_cdocs start'
+      execute '/etc/init.d/unicorn_deployment stop'
+      execute '/etc/init.d/unicorn_deployment start'
     end
   end
   after "deploy:published", "assets:deploy"
