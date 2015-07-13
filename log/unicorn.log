@@ -1,0 +1,25 @@
+I, [2015-07-08T18:31:19.805742 #7546]  INFO -- : Refreshing Gem list
+I, [2015-07-08T18:31:21.055814 #7546]  INFO -- : listening on addr=10.5.3.204:6001 fd=10
+I, [2015-07-08T18:31:21.161873 #7551]  INFO -- : worker=0 ready
+I, [2015-07-08T18:31:21.164453 #7554]  INFO -- : worker=1 ready
+I, [2015-07-08T18:31:21.165646 #7546]  INFO -- : master process ready
+I, [2015-07-08T18:31:21.166943 #7557]  INFO -- : worker=2 ready
+I, [2015-07-08T18:31:21.168667 #7560]  INFO -- : worker=3 ready
+I, [2015-07-08T18:31:27.404183 #7546]  INFO -- : reaped #<Process::Status: pid 7551 exit 0> worker=0
+I, [2015-07-08T18:31:27.404320 #7546]  INFO -- : reaped #<Process::Status: pid 7554 exit 0> worker=1
+I, [2015-07-08T18:31:27.404386 #7546]  INFO -- : reaped #<Process::Status: pid 7557 exit 0> worker=2
+I, [2015-07-08T18:31:27.404439 #7546]  INFO -- : reaped #<Process::Status: pid 7560 exit 0> worker=3
+I, [2015-07-08T18:31:27.404846 #7546]  INFO -- : master complete
+I, [2015-07-08T18:31:36.979987 #7571]  INFO -- : Refreshing Gem list
+I, [2015-07-08T18:31:38.214504 #7571]  INFO -- : listening on addr=10.5.3.204:6001 fd=10
+I, [2015-07-08T18:31:38.315905 #7576]  INFO -- : worker=0 ready
+I, [2015-07-08T18:31:38.317995 #7579]  INFO -- : worker=1 ready
+I, [2015-07-08T18:31:38.318338 #7571]  INFO -- : master process ready
+I, [2015-07-08T18:31:38.319159 #7582]  INFO -- : worker=2 ready
+I, [2015-07-08T18:31:38.320792 #7585]  INFO -- : worker=3 ready
+10.5.4.21 - - [08/Jul/2015:18:31:47 +0000] "GET / HTTP/1.1" 200 - 0.1083
+I, [2015-07-08T18:38:17.765126 #7571]  INFO -- : reaped #<Process::Status: pid 7576 exit 0> worker=0
+I, [2015-07-08T18:38:17.765361 #7571]  INFO -- : reaped #<Process::Status: pid 7579 exit 0> worker=1
+I, [2015-07-08T18:38:17.765450 #7571]  INFO -- : reaped #<Process::Status: pid 7582 exit 0> worker=2
+I, [2015-07-08T18:38:17.765514 #7571]  INFO -- : reaped #<Process::Status: pid 7585 exit 0> worker=3
+I, [2015-07-08T18:38:17.765988 #7571]  INFO -- : master complete
